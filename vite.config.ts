@@ -9,11 +9,6 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     base: "/lichsu2025/",
 
-    server: {
-      port: 3000,
-      host: "0.0.0.0",
-    },
-
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
@@ -21,7 +16,6 @@ export default defineConfig(({ mode }) => {
     },
 
     define: {
-      // Nếu code bạn còn dùng process.env.API_KEY thì phải inject như dưới
       "process.env.API_KEY": JSON.stringify(env.GEMINI_API_KEY || ""),
       "process.env.GEMINI_API_KEY": JSON.stringify(env.GEMINI_API_KEY || ""),
     },
