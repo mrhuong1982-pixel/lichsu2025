@@ -103,7 +103,7 @@ function App() {
     }
 
     // Calculate total score
-    const totalScore = Object.values(newScores).reduce((a: number, b: number) => a + b, 0);
+    const totalScore = (Object.values(newScores) as number[]).reduce((a: number, b: number) => a + b, 0);
 
     // Check badges
     const newBadges = [...currentUser.badges];
