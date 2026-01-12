@@ -1,5 +1,5 @@
 {
-  "name": "sử-việt-tranh-tài",
+  "name": "game-giải-mã-bí-ẩn",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^0.562.0",
+    "@google/genai": "^1.35.0",
     "react": "^19.2.3",
+    "lucide-react": "^0.562.0",
     "react-dom": "^19.2.3",
-    "xlsx": "0.18.5"
+    "canvas-confetti": "^1.9.4",
+    "xlsx": "latest",
+    "mammoth": "1.6.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

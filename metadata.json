@@ -1,5 +1,5 @@
 {
-  "name": "Sử Việt Tranh Tài",
-  "description": "Trò chơi trắc nghiệm tìm hiểu lịch sử Việt Nam qua các cấp độ thử thách.",
+  "name": "Game Giải Mã Bí Ẩn",
+  "description": "Ứng dụng tạo trò chơi lật mảnh ghép trả lời câu hỏi môn Ngữ Văn, tích hợp AI để tạo câu hỏi tự động. Thiết kế: Soạn Giảng TV - Chia Sẻ, Học Hỏi.",
   "requestFramePermissions": []
 }
